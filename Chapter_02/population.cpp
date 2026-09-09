@@ -14,6 +14,7 @@ int main() {
     // Current population and initial setup
     long long population = 312032486;
 
+    //fwehh
     // Calculate total seconds in a year (365 days)
     const long long SECONDS_PER_YEAR = 365 * 24 * 60 * 60; // 31,536,000 seconds
 
