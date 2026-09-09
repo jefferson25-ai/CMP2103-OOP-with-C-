@@ -33,7 +33,7 @@ int main() {
     cin >> heightInInches;
 
     // Calculate BMI
-    double weightInKilograms = weightInPounds * KILOGRAMS_PER_POUND;
+    double weightInKilograms = weightInPounds * KILOGRAMS_PER_POUND * 1.0; // Convert to kilograms
     double heightInMeters = heightInInches * METERS_PER_INCH;
     double bmi = weightInKilograms / (heightInMeters * heightInMeters);
 
